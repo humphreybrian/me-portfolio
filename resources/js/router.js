@@ -1,9 +1,8 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
-//declare the pages that are to be added in the nav by the router.
 import Home from './pages/Home.vue';
-import About from './About.vue';
+import About from './pages/About.vue';
 
 Vue.use(VueRouter);
 
@@ -11,11 +10,6 @@ const router = new VueRouter({
     mode: 'history',
     linkExactActiveClass: 'active',
     routes: [
-        {
-            path: '*',
-            name: 'home', //this is 404 navigation.
-            component: Home
-        },
         {
             path: '/',
             name: 'home',
@@ -26,7 +20,16 @@ const router = new VueRouter({
             name: 'about',
             component: About
         },
-    ]
+        
+        // {
+        //     path: "*",
+        //    // component: require('./views/Errors/NotFound').default,
+        //     component: NotFound
+        // },
+    ],
+    scrollBehavior(){
+        return {x: 0, y: 0}
+    }
 });
 
 export default router;

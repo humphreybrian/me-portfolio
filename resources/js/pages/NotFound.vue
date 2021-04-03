@@ -3,9 +3,9 @@
     <div class="row justify-content-center">
       <div class="col-md-8">
         <div class="card">
-          <div class="card-header">Home</div>
+          <div class="card-header">Page not Found</div>
 
-          <div class="card-body">Home Page</div>
+          <div class="card-body">Page not Found</div>
         </div>
       </div>
     </div>
