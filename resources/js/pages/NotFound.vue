@@ -1,19 +1,23 @@
 <template>
-  <div class="container mt-5">
-    <div class="row justify-content-center">
-      <div class="col-md-8">
-        <div class="card">
-          <div class="card-header">Page not Found</div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">NOt FOund Component</div>
 
-          <div class="card-body">Page not Found</div>
+                    <div class="card-body">
+                        I'm an example component.
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </template>
 
 <script>
-export default {
-    
-}
+    export default {
+        mounted() {
+            console.log('Component mounted.')
+        }
+    }
 </script>
