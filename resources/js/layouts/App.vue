@@ -32,6 +32,25 @@
               About
             </router-link>
           </li>
+          <li class="nav-item">
+            <router-link
+              class="nav-link"
+              data-toggle="collapse"
+              :to="{ name: 'contact' }"
+            >
+              Contact
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link
+              class="nav-link"
+              data-toggle="collapse"
+              :to="{ name: 'projects' }"
+            >
+              projects
+            </router-link>
+          </li>
+
         </ul>
       </div>
     </nav>

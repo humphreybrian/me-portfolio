@@ -5,6 +5,7 @@ import Home from './pages/Home.vue';
 import About from './pages/About.vue';
 import Contact from './pages/Contact.vue';
 import NotFound from './pages/NotFound.vue';
+import Projects from './pages/Projects.vue';
 
 
 Vue.use(VueRouter);
@@ -27,11 +28,15 @@ const router = new VueRouter({
             path: '/contact',
             name: 'contact',
             component: Contact
-        },
-        
+        },    
         {
-            path: "*",
-            //path: '/:pathMatch(.*)*',
+            path: '/projects',
+            name: 'projects',
+            component: Projects
+        },    
+        {
+            // path: "*",
+            path: '/:pathMatch(.*)*',
            // component: require('./views/Errors/NotFound').default,
             component: NotFound
         }
