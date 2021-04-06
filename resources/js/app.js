@@ -11,6 +11,12 @@ window.Vue = require('vue').default;
 import router from './router';
 import App from './layouts/App.vue';
 
+
+import VueRouter from 'vue-router';
+import VueAxios from 'vue-axios';
+import axios from 'axios';
+//import {routes} from './routes';
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
