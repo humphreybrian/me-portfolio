@@ -7,6 +7,9 @@ import Contact from './pages/Contact.vue';
 import NotFound from './pages/NotFound.vue';
 import Projects from './pages/Projects.vue';
 
+//import add contact
+import NewContact from './pages/AddContact.vue';
+
 
 Vue.use(VueRouter);
 
@@ -33,6 +36,11 @@ const router = new VueRouter({
             path: '/projects',
             name: 'projects',
             component: Projects
+        }, 
+        {
+            path: '/addcontact',
+            name: 'addcontact',
+            component: NewContact
         },    
         {
             // path: "*",
