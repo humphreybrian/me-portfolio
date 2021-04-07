@@ -11,9 +11,9 @@ import router from './router';
 import App from './layouts/App.vue';
 
 
-import VueRouter from 'vue-router';
-import VueAxios from 'vue-axios';
-import axios from 'axios';
+// import VueRouter from 'vue-router';
+// import VueAxios from 'vue-axios';
+// import axios from 'axios';
 //import {routes} from './routes';
 
 /**
