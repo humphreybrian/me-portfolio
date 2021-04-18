@@ -1,3 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-21:41:59	35996/35996	---M-Z	200	added ('OK')	text/html	etag:%223420f8f-8c9c-5b95375f06e92-gzip%22	http://theme.srbthemes.com/kerri/light/index_13.html	C:/My%20Web%20Sites/personalp/theme.srbthemes.com/kerri/light/index_13.html	(from )
-21:41:59	2674/2674	---M--	200	added ('OK')	text/plain	etag:%223406e50-a72-56f7105c06f9c%22	http://theme.srbthemes.com/robots.txt		(from )
